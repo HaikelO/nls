@@ -9,8 +9,7 @@ class MockNlsPlatform with MockPlatformInterfaceMixin implements NlsPlatform {
   Future<String?> getPlatformVersion() => Future.value('42');
 
   @override
-  Future<String?> getScannerResult() {
-    // TODO: implement getScannerResult
+  Future<void> scan() {
     throw UnimplementedError();
   }
 }
