@@ -30,7 +30,7 @@ class NlsPlugin: FlutterPlugin, MethodCallHandler {
     channel.setMethodCallHandler(this)
     context = flutterPluginBinding.applicationContext
 
-    val resultEventChannel = EventChannel(flutterPluginBinding.binaryMessenger, "result")
+    val resultEventChannel = EventChannel(flutterPluginBinding.binaryMessenger, "nlsresult")
     val streamHandler = StreamHandler(context)
     resultEventChannel.setStreamHandler(streamHandler)
   }

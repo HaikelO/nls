@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   String qrCode = "";
   final _nlsPlugin = Nls();
 
-  static const EventChannel _eventChannel = EventChannel('result');
+  static const EventChannel _eventChannel = EventChannel('nlsresult');
   StreamSubscription? _streamSubscription;
 
   @override
