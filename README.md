@@ -2,6 +2,8 @@
 
 NLS Scan plugin project.
 
+For Newland devices NLS-MT90
+
   static const EventChannel _eventChannel = EventChannel('nlsresult');
   StreamSubscription? _streamSubscription;
 
